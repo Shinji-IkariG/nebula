@@ -15,7 +15,7 @@ jobs:
       contents: read
 
     container:
-      image: vesoft/nebula-dev:centos7
+      image: vesoft/nebula-dev:ubuntu2004
       options: --cap-add=SYS_PTRACE
 
     strategy:
